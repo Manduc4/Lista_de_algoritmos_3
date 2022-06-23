@@ -4,7 +4,7 @@
 # o valor máximo é 20. Se valores fora da faixa forem informados, eles devem ser modificados para
 # valores dentro da faixa de forma elegante.
 
-def retangulo (linhas = 1, colunas = 1):
+def retangulo (linhas, colunas):
     print("+", "---" * colunas, "+")
     for i in range(linhas):
         print("|"," "*colunas*3,"|")
